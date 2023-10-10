@@ -1,0 +1,15 @@
+Algorithm Explanation:
+
+>We define a function findPatternOccurrences that takes two parameters: $text (the input text) and $pattern (the pattern to search for).
+
+>We calculate the lengths of the input text and the pattern using strlen.
+
+>We initialize a variable $occurrences to count the number of occurrences of the pattern.
+
+>We use a for loop to iterate through the input text. We start from index 0 and continue until the end of the text minus the length of the pattern.
+
+>In each iteration of the loop, we extract a substring from the input text that has the same length as the pattern, starting from the current position.
+
+>We compare the extracted substring with the pattern. If they match, we increment the $occurrences variable.
+
+>>Finally, we return the total number of occurrences found.
